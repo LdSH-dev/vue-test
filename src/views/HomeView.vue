@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+  <main class="columns is-gapless is-multiline"> 
+    <div class="columns is-one-quarter">
+      <BarraLateral />
+    </div>
+    <div class="column is-two-quarter">
+      <FormLogin />
+    </div>
+  </main> 
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import BarraLateral from '@/components/BarraLateral.vue';
+import FormLogin from   '@/components/FormLogin.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    HelloWorld,
-  },
+    BarraLateral,
+    FormLogin
+  }
 });
 </script>

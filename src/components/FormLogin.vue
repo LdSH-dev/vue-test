@@ -1,20 +1,20 @@
 <template>
-    <form class="box">
+  <form class="box has-background-danger">
   <div class="field">
     <label class="label">Email</label>
     <div class="control">
-      <input class="input" type="email" placeholder="e.g. alex@example.com">
+      <input class="input has-background-dark has-text-primary-light" type="email" placeholder="e.g. alex@example.com">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Senha</label>
     <div class="control">
-      <input class="input" type="password" placeholder="********">
+      <input class="input has-background-dark has-text-primary-light" type="password" placeholder="********">
     </div>
   </div>
 
-  <button class="button is-primary">Entrar</button>
+  <button class="button is-primary has-background-dark">Entrar</button>
 </form>
 </template>
 

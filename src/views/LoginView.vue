@@ -1,18 +1,15 @@
 <template>
-   <main>
-    <BarraSuperior />
-  </main> 
+    <FormLogin />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import FormLogin from   '@/views/FormLogin.vue';
-import BarraSuperior from   '@/components/BarraSuperior.vue';
+import FormLogin from   '@/components/FormLogin.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    BarraSuperior
+    FormLogin
   }
 });
 </script>

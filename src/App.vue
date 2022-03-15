@@ -9,11 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: black;
 }
 
 nav {
-  padding: 30px;
+  padding: 0px;
 }
 
 nav a {

@@ -5,13 +5,16 @@
        
     </p>
     <p class="subtitle">
-      Supernatural
+      Flash
     </p>
   </div>
   <footer class="card-footer has-background-danger">
     <p class="card-footer-item">
       <span>
+        <a href="https://www.netflix.com/watch/80057443?trackId=14170035&tctx=6%2C0%2C8615c20b-68c5-455f-a5f7-b64404602874-173999741%2Cd2bfe424-10c4-4212-af89-5f9ab370356f_26755185X19XX1647385071550%2Cd2bfe424-10c4-4212-af89-5f9ab370356f_ROOT%2C%2C%2C" class="icon-block">
           <i class="fa-solid fa-circle-play fa-2x"></i>
+        </a>
+          <!-- <i class="fa-solid fa-circle-play fa-2x" href="www.teste.com"></i> -->
       </span>
     </p>
   </footer>
@@ -27,6 +30,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+i{
+  color:white;
+}
 
 .card-footer{
     color: white;
